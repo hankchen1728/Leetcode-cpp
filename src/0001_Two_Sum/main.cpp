@@ -1,11 +1,11 @@
-#include <sys/_types/_size_t.h>
-
 #include <iostream>
 #include <unordered_map>
 #include <vector>
+#include "../Utils/myUtils.h"
 
 using namespace std;
 
+// Solution begin
 class Solution {
  public:
   vector<int> twoSum(vector<int> &nums, int target) {
@@ -31,24 +31,7 @@ class Solution {
     return idx_pair;
   }
 };
-
-// Utility functions
-string integerVectorToString(vector<int> list, int length = -1) {
-  if (length == -1) {
-    length = list.size();
-  }
-
-  if (length == 0) {
-    return "[]";
-  }
-
-  string result;
-  for (int index = 0; index < length; index++) {
-    int number = list[index];
-    result += to_string(number) + ", ";
-  }
-  return "[" + result.substr(0, result.length() - 2) + "]";
-}
+// Solution end
 
 // main
 int main() {
@@ -65,9 +48,9 @@ int main() {
   for (size_t i_test = 0; i_test < numCases; i_test++) {
     vector<int> ret = Solution().twoSum(testNums[i_test], testTarget[i_test]);
     cout << "Test case" << i_test << endl;
-    cout << "Input: nums = " << integerVectorToString(testNums[i_test]) ;
+    cout << "Input: nums = " << intVectorToString(testNums[i_test]) ;
     cout << ", target = " << testTarget[i_test] << endl;
-    cout << "Output:" << integerVectorToString(ret) << endl;
+    cout << "Output:" << intVectorToString(ret) << endl;
     cout << "========================" << endl;
   }
 }
