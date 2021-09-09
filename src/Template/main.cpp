@@ -26,7 +26,7 @@ int main() {
     cout << "Input:" << "\e[0m " << endl;
     // Call the Solution function here!
     Solution().problem();
-    cout << "\e[1m" << "Output: " << endl;
+    cout << "\e[1m" << "Output: " << "\e[0m " << endl;
     cout << "===========" << endl;
   }
 }

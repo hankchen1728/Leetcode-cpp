@@ -11,7 +11,13 @@ class Solution {
  public:
   int orderOfLargestPlusSign(int n, vector<vector<int>>& mines) {
     // Make the grids and then fill the 0's
-    vector<vector<int>> grid(n, vector<int>(n, INT_MAX));
+
+    // vector<vector<int>> grid(n, vector<int>(n, INT_MAX));
+    // using array is much faster
+    int grid[n][n];
+    for (size_t i = 0; i < n; ++i) {
+      for (size_t j = 0; j < n; ++j) grid[i][j] = INT_MAX;
+    }
     for (vector<int>& mine : mines) {
       grid[mine[0]][mine[1]] = 0;
     }
@@ -40,7 +46,8 @@ class Solution {
 
     // Search the max value in the dynamic programming matrix
     for (auto const& row : grid) {
-      order = max(order, *max_element(row.begin(), row.end()));
+      // order = max(order, *max_element(row.begin(), row.end()));
+      order = max(order, *max_element(row, row + n));
     }
     return order;
   }
