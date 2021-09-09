@@ -27,6 +27,8 @@ $ make clean
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [C++](./src/0005_longest_palindromic_substring/main.cpp) | Medium | `Dynamic Programming` |
 | 0006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [C++](./src/0006_zigzag_conversion/main.cpp) | Medium | `String` |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [C++](./src/0007_reverse_integer/main.cpp) | Easy | `Math` |
+| 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [C++](./src/0008_string_to_integer_atoi/main.cpp) | Medium| `String` |
+| 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./src/0011_container_with_most_water/main.cpp) | Medium | `Array`,`Two Pointers`,`Greedy` |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./src/0206_reverse_linked_list/main.cpp) | Medium | `Linked List`,`Recursion` |
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./src/0560_subarray_sum_equals_K/main.cpp) | Medium | `Hash Table`,`Prefix Sum`|
