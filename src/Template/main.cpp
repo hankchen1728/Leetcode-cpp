@@ -21,12 +21,12 @@ int main() {
   size_t nTest = testCase.size();
 
   for (size_t i = 0; i < nTest; i++) {
-    cout << "Example " << i + 1 << ":" << endl;
+    cout << "\e[1m" << "Example " << i + 1 << ":" << endl;
     // print the test case input here!
-    cout << "Input: " << endl;
+    cout << "Input:" << "\e[0m " << endl;
     // Call the Solution function here!
     Solution().problem();
-    cout << "Output: " << endl;
+    cout << "\e[1m" << "Output: " << endl;
     cout << "===========" << endl;
   }
 }

@@ -6,7 +6,32 @@
 using namespace std;
 
 // Functions for converting 1D integer vector to string
-string intVectorToString(vector<int>);
-string intVectorToString(vector<int>, int);
+/**
+ * Parsing content of an integer vector to string,
+ * e.g. "[1,2,3,4,5]"
+ *
+ * @param nums A vector of integer.
+ * @return string of content of `nums`.
+ */
+string intVectorToString(const vector<int>&);
+
+/**
+ * Parsing content of an integer vector to string,
+ * e.g. "[1,2,3,4,5]"
+ *
+ * @param nums A vector of integer.
+ * @param length Number of elements in vector to parse.
+ * @return string of content of `nums`.
+ */
+string intVectorToString(const vector<int>&, int);
+
+/**
+ * Parsing content of a 2d integer vector to string,
+ * e.g. "[[1,2,3],[4,5]]"
+ *
+ * @param values A 2D vector of integer.
+ * @return string of content of `values`.
+ */
+string int2dVectorToString(const vector<vector<int>>&);
 
 #endif
