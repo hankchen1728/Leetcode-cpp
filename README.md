@@ -31,12 +31,15 @@ $ make clean
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](./src/0009_palindrome_number/main.cpp) | Easy | `Math` |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./src/0011_container_with_most_water/main.cpp) | Medium | `Array`,`Two Pointers`,`Greedy` |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](./src/0035_search_insert_position/main.cpp) | Easy | `Array`,`Binary Search` |
+| 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./src/0189_rotate_array/main.cpp) | Medium | `Array`,`Math`,`Two Pointers` |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./src/0206_reverse_linked_list/main.cpp) | Medium | `Linked List`,`Recursion` |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](./src/0278_first_bad_version/main.cpp) | Easy | `Binary Search`,`Interactive`
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
+| 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./src/0560_subarray_sum_equals_K/main.cpp) | Medium | `Hash Table`,`Prefix Sum`|
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./src/0704_binary_search/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [C++](./src/0764_largest_plus_sign/main.cpp) | Medium | `Array`,`Dynamic Programming` |
+| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
 
