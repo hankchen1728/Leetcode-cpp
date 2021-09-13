@@ -34,4 +34,12 @@ string intVectorToString(const vector<int>&, int);
  */
 string int2dVectorToString(const vector<vector<int>>&);
 
+/**
+ * Parsing content of a 1d char vector to string,
+ * e.g. "["a", "b"]"
+ *
+ * @param s A 1D vector of char.
+ * @return string of content of `s`.
+ */
+string charVectorToString(vector<char>&);
 #endif

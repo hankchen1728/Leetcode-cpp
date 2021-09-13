@@ -25,3 +25,12 @@ string intVectorToString(const vector<int>& nums, int length = -1) {
   }
   return "[" + result.substr(0, result.length() - 1) + "]";
 }
+
+string charVectorToString(vector<char>& s) {
+  string result;
+  for (int i = 0; i < s.size(); i++) {
+    result += "\"\",";
+    result.insert(result.end() - 2, s[i]);
+  }
+  return "[" + result.substr(0, result.length() - 1) + "]";
+}
