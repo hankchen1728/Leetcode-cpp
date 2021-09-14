@@ -1,3 +1,9 @@
+# .gitignore itself
+.gitignore
+
 # compiled binary
 bin/*
 **/*.o
+
+# any book
+**/*.pdf

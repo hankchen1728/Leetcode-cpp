@@ -5,6 +5,8 @@
 1. For **i**-th step, the value is the max sum of every contiguous subarray ends at **i**-th element.
 2. Similar to greedy algorithm, mostly adding one more element would increase the sum, hence each step we can directly add the current element to the sum. But if the sum will be negative after adding the current element, we need to reset the sum to 0. In order words, if `sum(nums[i:j-1]) > 0` and `sum(nums[i:j]) < 0`, then any `nums[i:k]` where `k≥j`, will never be the one with max sum, for example, `sum([1,-2,3,5])` is lower than `sum([3,5])`.
 
+Or see [How to solve "Maximum Subarray" by using the divide and conquer approach ?](https://leetcode.com/problems/maximum-subarray/discuss/20372/How-to-solve-%22Maximum-Subarray%22-by-using-the-divide-and-conquer-approach)
+
 ## Problem Statement
 <p>Given an integer array <code>nums</code>, find the contiguous subarray (containing at least one number) which has the largest sum and return <em>its sum</em>.</p>
 

@@ -1,6 +1,9 @@
 # 1. Two Sum
 - Link: [ https://leetcode.com/problems/two-sum/ ](https://leetcode.com/problems/two-sum/)
 
+# Idea
+The **Hash Table**(`unordered_map<int, int>`) should store the values of `index+1`, or the `index` of 0 would cause logical `false`.
+
 <p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
 <p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>

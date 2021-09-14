@@ -34,3 +34,28 @@ string charVectorToString(vector<char>& s) {
   }
   return "[" + result.substr(0, result.length() - 1) + "]";
 }
+
+ListNode* intVectorToListNode(vector<int>& nums) {
+  ListNode* head = new ListNode(-1);
+  ListNode* curr = head;
+
+  for (const int& i : nums) {
+    curr->next = new ListNode(i);
+    curr = curr->next;
+  }
+
+  return head->next;
+}
+
+string listNodeToString(ListNode* node) {
+  string result;
+  ListNode* curr = node;
+
+  while (curr) {
+    int val = curr->val;
+    result += to_string(val) + ",";
+    curr = curr->next;
+  }
+
+  return "[" + result.substr(0, result.length() - 1) + "]";
+}
