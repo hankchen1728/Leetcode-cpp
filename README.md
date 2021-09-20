@@ -31,12 +31,15 @@ $ make clean
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](./src/0009_palindrome_number/main.cpp) | Easy | `Math` |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./src/0011_container_with_most_water/main.cpp) | Medium | `Array`,`Two Pointers`,`Greedy` |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [C++](./src/0019_remove_nth_node_from_end_of_list/main.cpp) | Medium | `Linked List`,`Two Pointers` |
+| 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./src/0021_merge_two_sorted_lists/main.cpp) | Easy | `Linked List`,`Recursion` |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](./src/0035_search_insert_position/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./src/0053_maximum_subarray/main.cpp) | Easy | `Array`,`Divide and Conquer`,`Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](./src/0054_spiral_matrix/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](./src/0074_search_a_2d_matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Matrix` |
+| 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [C++](./src/0077_combinations/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./src/0088_merge_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting` |
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [C++](./src/0115_distinct_subsequences/main.cpp) | Hard | `String`,`Dynamic Programming` |
+| 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [C++](./src/0116_populating_next_right_pointers_in_each_node/main.cpp) | Medium | `Tree`,`Depth-First Search`,`Breadth-first Search`,`Binary Tree` |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](./src/0118_pascals_triangle/main.cpp) | Easy | `Array`,`Dynamic Programming` |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./src/0121_best_time_to_buy_and_sell_stock/main.cpp) | Easy | `Array`,`Dynamic Programming` |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](./src/0167_two_sum_ii_-_input_array_is_sorted/main.cpp) | Easy | `Array`,`Two Pointers`,`Binary Search` |
@@ -50,6 +53,7 @@ $ make clean
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [C++](./src/0542_01_matrix/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Breadth-first Search`,`Matrix` |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](./src/0557_reverse_words_in_a_string_iii/main.cpp) | Easy | `Two Pointers`,`String` |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./src/0560_subarray_sum_equals_K/main.cpp) | Medium | `Hash Table`,`Prefix Sum`|
 | 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [C++](./src/0566_reshape_the_matrix/main.cpp) | Easy | `Array`,`Matrix`,`Simulation` |
@@ -64,6 +68,7 @@ $ make clean
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
 | 0978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [C++](./src/0978_longest_turbulent_subarray/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Sliding Window` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [C++](./src/1189_maximum_number_of_balloons/main.cpp) | Easy | `Hash Table`,`String`,`Counting` |
+| 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++](./src/1275_find_winner_on_a_tic_tac_toe_game/main.cpp) | Easy | `Array`,`Hash Table`,`Matrix`,`Simulation` |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
 
