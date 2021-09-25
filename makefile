@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 CC:=clang++
-CFLAG:= -Wall -std=c++17 -O3
+CFLAG:= -Wall -std=c++17 -O3 -fsanitize=address
 
 %:
 	@mkdir -p ./bin

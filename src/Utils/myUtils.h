@@ -35,6 +35,16 @@ string intVectorToString(const vector<int>&, int);
 string int2dVectorToString(const vector<vector<int>>&);
 
 /**
+ * Parsing content of a 2d integer vector to string,
+ * e.g. "[[1,2,3],[4,5]]"
+ *
+ * @param values A 2D vector of integer.
+ * @param pretty boolean for pretty print
+ * @return string of content of `values`.
+ */
+string int2dVectorToString(const vector<vector<int>>&, bool pretty);
+
+/**
  * Parsing content of a 1d char vector to string,
  * e.g. "["a", "b"]"
  *

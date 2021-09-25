@@ -1,11 +1,18 @@
 #include "myUtils.h"
 
 string int2dVectorToString(const vector<vector<int>>& values) {
+  return int2dVectorToString(values, false);
+}
+
+string int2dVectorToString(const vector<vector<int>>& values,
+                           bool pretty = false) {
   size_t rows = values.size();
   string result;
 
   for (size_t i = 0; i < rows; i++) {
+    if (i > 0) result += " ";
     result += intVectorToString(values[i]) + ",";
+    if (pretty && i < rows - 1) result += "\n";
   }
   return "[" + result.substr(0, result.length() - 1) + "]";
 }

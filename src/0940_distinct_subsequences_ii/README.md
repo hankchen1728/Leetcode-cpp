@@ -2,20 +2,21 @@
 - Link: [https://leetcode.com/problems/distinct-subsequences-ii/](https://leetcode.com/problems/distinct-subsequences-ii/)
 
 ## Idea
-First, we define that `DP[i]` is the number of distinct non-empty subsequences of substring `s[0:i]`. Thus the final answer would be `DP[s.length()]`.
+First, we define that `DP[i]` is the number of distinct non-empty subsequences of substring `s[0:i]` (not contain the char `s[i]`). Thus the final answer would be `DP[s.length()]`.
+And `DP[0] = 0` since `s[0:0]` is a empyt string.
 
 In addition, we need another hash table to record the last position of each letter (we can simply use `vector<int>` of size `26` here).
 
-Now we need to find the equation of each `DP[i]`. For the case that current letter `s[i]` is not appeared before, then the increased number would be `DP[i-1] + 1`, since all the subsequences appending the new letter `s[i]` would be new subsequences, also `"s[i]"` is also a new subsequence.
+Now we need to find the equation of each `DP[i+1]`. For the case that current letter `s[i]` is not appeared before, then the increased number would be `DP[i] + 1`, since all the subsequences appending the new letter `s[i]` would be new subsequences, also `"s[i]"` is also a new subsequence.
 
-For the case that `s[i]` appeared before, a number of `DP[Table[s[i]] - 1]` is counted (or see repeated), hence the increased number would be `DP[i] - DP[Table[s[i]] - 1]`.
+For the case that `s[i]` appeared before, a number of `DP[Table[s[i]]]` is counted (or say repeated), hence the increased number would be `DP[i] - DP[Table[s[i]]]`.
 
 For example, consider the string `"abcbc"`, when we are at the second `"c"`, some subsequences such as `"ac"`,`"bc"` are counted at the first `"c"`, the number of these repeated subsequences are 3, exactly the number of distinct non-empty subsequences of substring `"ab"`.
 
 ```
           ┌── 2 * DP[i] + 1, if s[i] does not appear before
 DP[i+1] = ┤
-          └── 2 * DP[i] - DP[Table[s[i]]-1], where s[i] appeared in Table[s[i]] for last time
+          └── 2 * DP[i] - DP[Table[s[i]]], where s[i] appeared in `Table[s[i]]` for last time
 ```
 
 ## Problem Statement
