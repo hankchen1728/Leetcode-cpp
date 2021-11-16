@@ -49,7 +49,7 @@ $ make clean
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [C++](./src/0118_pascals_triangle/main.cpp) | Easy | `Array`,`Dynamic Programming` |
 | 0120 | [Triangle](https://leetcode.com/problems/triangle/) | [C++](./src/0120_triangle/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./src/0121_best_time_to_buy_and_sell_stock/main.cpp) | Easy | `Array`,`Dynamic Programming` |
-| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./src/0122_best_time_to_buy_and_sell_stock_ii/main.cpp) | `Array`,`Dynamic Programming`,`Greedy` |
+| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./src/0122_best_time_to_buy_and_sell_stock_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Greedy` |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./src/0136_single_number/main.cpp) | Easy | `Array`,`Bit Manipulation` |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./src/0137_single_number_ii/main.cpp) | Medium | `Array`,`Bit Manipulation` |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/0153_find_minimum_in_rotated_sorted_array/main.cpp) | Medium | `Array`,`Binary Search` |
@@ -70,6 +70,7 @@ $ make clean
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
+| 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](./src/0441_arranging_coins/main.cpp) | Medium | `Math`,`Binary Search` |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](./src/0485_max_consecutive_ones/main.cpp) | Easy | `Array` |
@@ -78,9 +79,11 @@ $ make clean
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [C++](./src/0560_subarray_sum_equals_K/main.cpp) | Medium | `Hash Table`,`Prefix Sum`|
 | 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [C++](./src/0566_reshape_the_matrix/main.cpp) | Easy | `Array`,`Matrix`,`Simulation` |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./src/0567_permutation_in_string/main.cpp) | Medium | `Hash Table`,`Two Pointers`,`String`,`Sliding Window`|
+| 0668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [C++](./src/0668_kth_smallest_number_in_multiplication_table/main.cpp) | Hard | `Binary Search` |
 | 0695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [C++](./src/0695_max_area_of_island/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-first Search`,`Union Find`,`Matix` |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./src/0704_binary_search/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [C++](./src/0733_flood_fill/main.cpp) | Easy | `Array`,`Depth-First Search`,`Breadth-first Search`,`Matrix` |
+| 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](./src/0739_daily_temperatures/main.cpp) | Medium | `Array`,`Stack`,`Monotonic Stack` |
 | 0764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [C++](./src/0764_largest_plus_sign/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [C++](./src/0784_letter_case_permutation/main.cpp) | Medium | `String`,`Backtracking`,`Bit Manipulation` |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./src/0876_middle_of_the_linked_list/main.cpp) | Easy | `Linked List`,`Two Pointers` |
