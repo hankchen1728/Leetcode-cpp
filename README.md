@@ -6,7 +6,12 @@
 Run the command `make <Problem ID>` to compile the .cpp file.
 
 For example, for the problem [**0002_add_two_numbers**](./src/0002_add_two_numbers), run
-```sh
+```shell
+# Run the following command to create the problem folder with template
+$ make 2. Add Two Numbers
+cp -r ./src/Template ./src/0002_add_two_numbers
+
+# Compiling the source code and generating binary file
 $ make 0002
 Compiling binary file: bin/0002_add_two_numbers
 
@@ -15,6 +20,7 @@ $ ./bin/0002_add_two_numbers
 
 # Clean all compilied files under ./bin/
 $ make clean
+rm -rf ./bin/*
 ```
 
 ## Problems
@@ -39,6 +45,8 @@ $ make clean
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./src/0046_permutations/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./src/0053_maximum_subarray/main.cpp) | Easy | `Array`,`Divide and Conquer`,`Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](./src/0054_spiral_matrix/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
+| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./src/0062_unique_paths/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Combinations` |
+| 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./src/0063_unique_paths_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Matrix` |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./src/0077_combinations/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](./src/0074_search_a_2d_matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Matrix` |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [C++](./src/0077_combinations/main.cpp) | Medium | `Array`,`Backtracking` |
@@ -73,6 +81,8 @@ $ make clean
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](./src/0441_arranging_coins/main.cpp) | Medium | `Math`,`Binary Search` |
+| 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [C++](./src/0442_Find_All_Duplicates_in_an_Array/main.cpp) | Medium | `Array`,`Hash Table` |
+| 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/0448_find_all_numbers_disappeared_in_an_array/main.cpp) | Easy | `Array`,`Hash Table` |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](./src/0485_max_consecutive_ones/main.cpp) | Easy | `Array` |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [C++](./src/0542_01_matrix/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Breadth-first Search`,`Matrix` |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](./src/0557_reverse_words_in_a_string_iii/main.cpp) | Easy | `Two Pointers`,`String` |
