@@ -21,7 +21,7 @@ class Solution {
 // Solution end
 
 int main() {
-  // Write something here
+  // Setting the test cases
   vector<int> testCase = {0, 1, 3};
   size_t nTest = testCase.size();
 

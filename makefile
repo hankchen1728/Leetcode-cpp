@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-CC:=clang++
+CC := clang++
 CFLAG:= -Wall -std=c++17 -O3 -fsanitize=address
 
 ifeq (problem,$(firstword $(MAKECMDGOALS)))
