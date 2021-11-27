@@ -1,3 +1,4 @@
+#include <climits>
 #include <iostream>
 #include <vector>
 
@@ -9,14 +10,44 @@ using namespace std;
 class Solution {
  public:
   int maxSubArray(vector<int>& nums) {
-      size_t len = nums.size();
-      int maxSum,dp=maxSum=nums[0];
+    // Method 1: Dynamic Program
+    size_t len = nums.size();
+    int maxSum, dp = maxSum = nums[0];
 
-      for (size_t i=1; i<len; i++){
-          dp = max(nums[i], dp + nums[i]);
-          maxSum = max(maxSum, dp);
-      }
-      return maxSum;
+    for (size_t i = 1; i < len; i++) {
+      dp = max(nums[i], dp + nums[i]);
+      maxSum = max(maxSum, dp);
+    }
+    return maxSum;
+
+    // Method 2: Divide and Conquer
+    // return mergeSum(nums, 0, nums.size() - 1);
+  }
+
+  // Helper function for Divide and Conquer approach
+  int mergeSum(vector<int>& nums, int low, int high) {
+    if (low == high) return nums[low];
+
+    int mid = (low + high) / 2;
+    return max({
+        mergeSum(nums, low, mid),           // left half
+        mergeSum(nums, mid + 1, high),      // right half
+        middleCross(nums, low, mid, high),  // cross middle
+    });
+  }
+
+  int middleCross(vector<int>& nums, int low, int mid, int high) {
+    int subSum = 0, leftSum = INT_MIN, rightSum = INT_MIN;
+    for (int i = mid; i >= low; i--) {
+      subSum += nums[i];
+      leftSum = max(subSum, leftSum);
+    }
+    subSum = 0;
+    for (int i = mid + 1; i <= high; i++) {
+      subSum += nums[i];
+      rightSum = max(subSum, rightSum);
+    }
+    return leftSum + rightSum;
   }
 };
 // Solution end

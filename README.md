@@ -60,6 +60,7 @@ rm -rf ./bin/*
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./src/0122_best_time_to_buy_and_sell_stock_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Greedy` |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./src/0136_single_number/main.cpp) | Easy | `Array`,`Bit Manipulation` |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./src/0137_single_number_ii/main.cpp) | Medium | `Array`,`Bit Manipulation` |
+| 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./src/0152_Maximum_Product_Subarray/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/0153_find_minimum_in_rotated_sorted_array/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [C++](./src/0162_find_peak_element/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](./src/0167_two_sum_ii_-_input_array_is_sorted/main.cpp) | Easy | `Array`,`Two Pointers`,`Binary Search` |
@@ -71,6 +72,7 @@ rm -rf ./bin/*
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./src/0206_reverse_linked_list/main.cpp) | Medium | `Linked List`,`Recursion` |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./src/0217_contains_duplicate/main.cpp) | Easy | `Array`,`Hash Table`,`Sorting` |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](./src/0231_power_of_two/main.cpp) | Easy | `Math`,`Bit Manipulation`,`Recursion` |
+| 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./src/0238_Product_of_Array_Except_Self/main.cpp) | Medium | `Array`,`Prefix Sum` |
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](./src/0260_single_number_iii/main.cpp) | Medium | `Array`,`Bit Manipulation` |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](./src/0278_first_bad_version/main.cpp) | Easy | `Binary Search`,`Interactive`
 | 0282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [C++](./src/0282_expression_add_operators/main.cpp) | Hard | `Math`,`String`,`Backtracking` |
@@ -104,6 +106,7 @@ rm -rf ./bin/*
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
 | 0978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [C++](./src/0978_longest_turbulent_subarray/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Sliding Window` |
 | 0980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [C++](./src/0980_Unique_Paths_III/main.cpp) | Hard | `Array`,`Backtracking`,`Bit Manipulation`,`Matrix` |
+| 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [C++](./src/0986_Interval_List_Intersections/main.cpp) | Medium | `Array`,`Two Pointers` |
 | 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./src/0994_rotting_oranges/main.cpp) | Medium | `Array`,`Breadth-first Search`,`Matrix` |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [C++](./src/1137_n-th_tribonacci_number/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [C++](./src/1189_maximum_number_of_balloons/main.cpp) | Easy | `Hash Table`,`String`,`Counting` |
