@@ -78,11 +78,13 @@ rm -rf ./bin/*
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](./src/0278_first_bad_version/main.cpp) | Easy | `Binary Search`,`Interactive`
 | 0282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [C++](./src/0282_expression_add_operators/main.cpp) | Hard | `Math`,`String`,`Backtracking` |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./src/0283_move_zeroes/main.cpp) | Easy | `Array`,`Two Pointers` |
+| 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./src/0328_Odd_Even_Linked_List/main.cpp) | Medium | `Linked List` |
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
+| 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](./src/0416_Partition_Equal_Subset_Sum/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](./src/0441_arranging_coins/main.cpp) | Medium | `Math`,`Binary Search` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [C++](./src/0442_Find_All_Duplicates_in_an_Array/main.cpp) | Medium | `Array`,`Hash Table` |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/0448_find_all_numbers_disappeared_in_an_array/main.cpp) | Easy | `Array`,`Hash Table` |
@@ -103,6 +105,7 @@ rm -rf ./bin/*
 | 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [C++](./src/0784_letter_case_permutation/main.cpp) | Medium | `String`,`Backtracking`,`Bit Manipulation` |
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [C++](./src/0797_All_Paths_From_Source_to_Target/main.cpp) | Medium | `Backtracking`,`Depth-First Search`,`Breadth-First Search`,`Graph` |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./src/0876_middle_of_the_linked_list/main.cpp) | Easy | `Linked List`,`Two Pointers` |
+| 0878 | [Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) | [C++](./src/0878_Nth_Magical_Number/main.cpp) | `Hard` | `Math`,`Binary Search` |
 | 0917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [C++](./src/0917_reverse_only_letters/main.cpp) | Easy | `Two Pointers`,`String` |
 | 0940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | [C++](./src/0940_distinct_subsequences_ii/main.cpp) | Hard | `String`, `Dynamic Programming` |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
@@ -116,8 +119,10 @@ rm -rf ./bin/*
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++](./src/1275_find_winner_on_a_tic_tac_toe_game/main.cpp) | Easy | `Array`,`Hash Table`,`Matrix`,`Simulation` |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C++](./src/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer/main.cpp) | Easy | `Linked List`,`Math` |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [C++](./src/1293_shortest_path_in_a_grid_with_obstacles_elimination/main.cpp) | Hard | `Array`,`Breadth-first Search`,`Matrix` |
+| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](./src/1306_Jump_Game_III/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-First Search` |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [C++](./src/1328_break_a_palindrome/main.cpp) | Medium | `String`,`Greedy` |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/1413_minimum_value_to_get_positive_step_by_step_sum/main.cpp) | Easy | `Array`,`Prefix Sum` |
+| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | [C++](./src/1446_Consecutive_Characters/main.cpp) | Easy | `String` |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
 | 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | [C++](./src/1987_number_of_unique_good_subsequences/main.cpp) | Hard | `String`,`Dynamic Programming` |
