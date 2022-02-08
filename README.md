@@ -38,6 +38,7 @@ rm -rf ./bin/*
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./src/0011_container_with_most_water/main.cpp) | Medium | `Array`,`Two Pointers`,`Greedy` |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [C++](./src/0019_remove_nth_node_from_end_of_list/main.cpp) | Medium | `Linked List`,`Two Pointers` |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./src/0021_merge_two_sorted_lists/main.cpp) | Easy | `Linked List`,`Recursion` |
+| 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./src/0023_Merge_k_Sorted_Lists/main.cpp) | Hard | `Linked List`,`Divide and Conquer`,`Heap (Priority Queue)`,`Merge Sort` |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./src/0033_search_in_rotated_sorted_array/main.cpp) | Medium | `Array`, `Binary Search` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/0034_find_first_and_last_position_of_element_in_sorted_array/) | Medium | `Array`,`Binary Search` |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](./src/0035_search_insert_position/main.cpp) | Easy | `Array`,`Binary Search` |
@@ -50,6 +51,7 @@ rm -rf ./bin/*
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./src/0077_combinations/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](./src/0074_search_a_2d_matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Matrix` |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [C++](./src/0077_combinations/main.cpp) | Medium | `Array`,`Backtracking` |
+| 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [C++](./src/0080_Remove_Duplicates_from_Sorted_Array_II/main.cpp) | Medium | `Array`,`Two Pointers` |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./src/0088_merge_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting` |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [C++](./src/0096_unique_binary_search_trees/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Tree`,`Binary Search Tree`,`Binary Tree` |
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [C++](./src/0115_distinct_subsequences/main.cpp) | Hard | `String`,`Dynamic Programming` |
@@ -72,9 +74,11 @@ rm -rf ./bin/*
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [C++](./src/0203_remove_linked_list_elements/main.cpp) | Easy | `Linked List`,`Recursion` |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./src/0206_reverse_linked_list/main.cpp) | Medium | `Linked List`,`Recursion` |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [C++](./src/0213_House_Robber_II/main.cpp) | Medium | `Array`,`Dynamic Programming` |
+| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [C++](./src/0215_Kth_Largest_Element_in_an_Array/main.cpp) | Medium | `Array`,`Divide and Conquer`,`Sorting`,`Heap (Priority Queue)`,`Quickselect` |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [C++](./src/0217_contains_duplicate/main.cpp) | Easy | `Array`,`Hash Table`,`Sorting` |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](./src/0231_power_of_two/main.cpp) | Easy | `Math`,`Bit Manipulation`,`Recursion` |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./src/0238_Product_of_Array_Except_Self/main.cpp) | Medium | `Array`,`Prefix Sum` |
+| 0258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](./src/0258_Add_Digits/main.cpp) | Easy | `Math`,`Simulation`,`Number Theory` |
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [C++](./src/0260_single_number_iii/main.cpp) | Medium | `Array`,`Bit Manipulation` |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [C++](./src/0278_first_bad_version/main.cpp) | Easy | `Binary Search`,`Interactive`
 | 0282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [C++](./src/0282_expression_add_operators/main.cpp) | Hard | `Math`,`String`,`Backtracking` |
@@ -84,13 +88,18 @@ rm -rf ./bin/*
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
+| 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/0378_Kth_Smallest_Element_in_a_Sorted_Matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Sorting`,`Heap (Priority Queue)`,`Matrix` |
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C++](./src/0389_Find_the_Difference/main.cpp) | Easy | `Hash Table`,`String`,`Bit Manipulation`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [C++](./src/0416_Partition_Equal_Subset_Sum/main.cpp) | Medium | `Array`,`Dynamic Programming` |
+| 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](./src/0438_Find_All_Anagrams_in_a_String/main.cpp) | Medium | `Hash Table`,`String`,`Sliding Window` |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | [C++](./src/0441_arranging_coins/main.cpp) | Medium | `Math`,`Binary Search` |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [C++](./src/0442_Find_All_Duplicates_in_an_Array/main.cpp) | Medium | `Array`,`Hash Table` |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [C++](./src/0448_find_all_numbers_disappeared_in_an_array/main.cpp) | Easy | `Array`,`Hash Table` |
+| 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [C++](./src/0454_4Sum_II/main.cpp) | Medium | `Array`,`Hash Table` |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](./src/0461_Hamming_Distance/main.cpp) | Easy | `Bit Manipulation` |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](./src/0485_max_consecutive_ones/main.cpp) | Easy | `Array` |
+| 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [C++](./src/0525_Contiguous_Array/main.cpp) | Medium | `Array`,`Hash Table`,`Prefix Sum` |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./src/0540_Single_Element_in_a_Sorted_Array/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [C++](./src/0542_01_matrix/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Breadth-first Search`,`Matrix` |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](./src/0557_reverse_words_in_a_string_iii/main.cpp) | Easy | `Two Pointers`,`String` |
