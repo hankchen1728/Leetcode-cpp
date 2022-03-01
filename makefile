@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 CC := clang++
 CFLAG:= -Wall -std=c++17 -O3 -fsanitize=address
+EDITOR := nvim
 
 ifeq (problem,$(firstword $(MAKECMDGOALS)))
     # use the second argument as problem id
@@ -29,3 +30,4 @@ problem:
 	$(eval PROB_ID = $(shell printf '%04d' $(subst .,,$(PROB_ID))))
 	$(eval PROB_TITLE = $(shell echo "${PROB_TITLE}" | sed -e 's/ /_/g'))
 	cp -r ./src/Template ./src/$(PROB_ID)_$(PROB_TITLE)
+	$(EDITOR) ./src/$(PROB_ID)_$(PROB_TITLE)/main.cpp

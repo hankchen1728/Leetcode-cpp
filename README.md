@@ -66,7 +66,10 @@ rm -rf ./bin/*
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./src/0152_Maximum_Product_Subarray/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/0153_find_minimum_in_rotated_sorted_array/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [C++](./src/0162_find_peak_element/main.cpp) | Medium | `Array`,`Binary Search` |
+| 0165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [C++](./src/0165_Compare_Version_Numbers/main.cpp) | Medium | `Two Pointers`,`String` |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](./src/0167_two_sum_ii_-_input_array_is_sorted/main.cpp) | Easy | `Array`,`Two Pointers`,`Binary Search` |
+| 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./src/0169_Majority_Element/main.cpp) | Easy | `Array`,`Hash Table`,`Divide and Conquer`,`Sorting`,`Counting` |
+| 0171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [C++](./src/0171_Excel_Sheet_Column_Number/main.cpp) | Easy | `Math`,`String` |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./src/0189_rotate_array/main.cpp) | Medium | `Array`,`Math`,`Two Pointers` |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [C++](./src/0190_reverse_bits/main.cpp) | Easy | `Divide and Conquer`,`Bit Manipulation` |
 | 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](./src/0191_number_of_1_bits/main.cpp) | Easy | `Bit Manipulation` |
@@ -85,6 +88,7 @@ rm -rf ./bin/*
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./src/0283_move_zeroes/main.cpp) | Easy | `Array`,`Two Pointers` |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./src/0328_Odd_Even_Linked_List/main.cpp) | Medium | `Linked List` |
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
+| 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./src/0338_Counting_Bits/main.cpp) | Easy | `Dynamic Programming`,`Bit Manipulation` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
@@ -100,6 +104,7 @@ rm -rf ./bin/*
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [C++](./src/0461_Hamming_Distance/main.cpp) | Easy | `Bit Manipulation` |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](./src/0485_max_consecutive_ones/main.cpp) | Easy | `Array` |
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [C++](./src/0525_Contiguous_Array/main.cpp) | Medium | `Array`,`Hash Table`,`Prefix Sum` |
+| 0532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [C++](./src/0532_K-diff_Pairs_in_an_Array/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [C++](./src/0540_Single_Element_in_a_Sorted_Array/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [C++](./src/0542_01_matrix/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Breadth-first Search`,`Matrix` |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [C++](./src/0557_reverse_words_in_a_string_iii/main.cpp) | Easy | `Two Pointers`,`String` |
@@ -127,6 +132,7 @@ rm -rf ./bin/*
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [C++](./src/1189_maximum_number_of_balloons/main.cpp) | Easy | `Hash Table`,`String`,`Counting` |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](./src/1217_Minimum_Cost_to_Move_Chips_to_The_Same_Position/main.cpp) | Easy | `Array`,`Math`,`Greedy` |
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++](./src/1275_find_winner_on_a_tic_tac_toe_game/main.cpp) | Easy | `Array`,`Hash Table`,`Matrix`,`Simulation` |
+| 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | [C++](./src/1288_Remove_Covered_Intervals/main.cpp) | Medium | `Array`,`Sorting` |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C++](./src/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer/main.cpp) | Easy | `Linked List`,`Math` |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [C++](./src/1293_shortest_path_in_a_grid_with_obstacles_elimination/main.cpp) | Hard | `Array`,`Breadth-first Search`,`Matrix` |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](./src/1306_Jump_Game_III/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-First Search` |

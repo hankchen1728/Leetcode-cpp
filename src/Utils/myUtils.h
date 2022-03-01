@@ -1,6 +1,7 @@
 #ifndef UTIL_HEADER
 #define UTIL_HEADER
 
+#include <iomanip>
 #include <string>
 #include <vector>
 using namespace std;
@@ -13,7 +14,7 @@ using namespace std;
  * @param nums A vector of integer.
  * @return string of content of `nums`.
  */
-string intVectorToString(const vector<int>&);
+string intVectorToString(const vector<int> &);
 
 /**
  * Parsing content of an integer vector to string,
@@ -23,7 +24,7 @@ string intVectorToString(const vector<int>&);
  * @param length Number of elements in vector to parse.
  * @return string of content of `nums`.
  */
-string intVectorToString(const vector<int>&, int);
+string intVectorToString(const vector<int> &, int);
 
 /**
  * Parsing content of a 2d integer vector to string,
@@ -32,7 +33,7 @@ string intVectorToString(const vector<int>&, int);
  * @param values A 2D vector of integer.
  * @return string of content of `values`.
  */
-string int2dVectorToString(const vector<vector<int>>&);
+string int2dVectorToString(const vector<vector<int>> &);
 
 /**
  * Parsing content of a 2d integer vector to string,
@@ -42,7 +43,7 @@ string int2dVectorToString(const vector<vector<int>>&);
  * @param pretty boolean for pretty print
  * @return string of content of `values`.
  */
-string int2dVectorToString(const vector<vector<int>>&, bool pretty);
+string int2dVectorToString(const vector<vector<int>> &, bool pretty);
 
 /**
  * Parsing content of a 1d char vector to string,
@@ -51,18 +52,29 @@ string int2dVectorToString(const vector<vector<int>>&, bool pretty);
  * @param s A 1D vector of char.
  * @return string of content of `s`.
  */
-string charVectorToString(vector<char>&);
+string charVectorToString(vector<char> &);
 
 // Definition for singly-linked list.
 struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+  int val;
+  ListNode *next;
+  ListNode() : val(0), next(nullptr) {}
+  ListNode(int x) : val(x), next(nullptr) {}
+  ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-ListNode* intVectorToListNode(vector<int>&);
-string listNodeToString(ListNode*);
+// Definition of binary tree node
+struct TreeNode {
+  int val;
+  TreeNode *left;
+  TreeNode *right;
+  TreeNode() : val(0), left(nullptr), right(nullptr) {}
+  TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right)
+      : val(x), left(left), right(right) {}
+};
+
+ListNode *intVectorToListNode(vector<int> &);
+string listNodeToString(ListNode *);
 
 #endif
