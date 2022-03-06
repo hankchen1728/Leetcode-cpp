@@ -1,6 +1,8 @@
 #ifndef UTIL_HEADER
 #define UTIL_HEADER
 
+#define BOOL2STR(Cond) ((Cond) ? "true" : "false")
+
 #include <iomanip>
 #include <string>
 #include <vector>
@@ -63,6 +65,9 @@ struct ListNode {
   ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+ListNode *intVectorToListNode(vector<int> &);
+string listNodeToString(ListNode *);
+
 // Definition of binary tree node
 struct TreeNode {
   int val;
@@ -73,8 +78,5 @@ struct TreeNode {
   TreeNode(int x, TreeNode *left, TreeNode *right)
       : val(x), left(left), right(right) {}
 };
-
-ListNode *intVectorToListNode(vector<int> &);
-string listNodeToString(ListNode *);
 
 #endif

@@ -1,4 +1,5 @@
 # My Leetcode Playgrounds in C++
+![Leetcode Stats](https://leetcode.card.workers.dev/?username=hankchen1728&theme=nord)
 
 ## How to Run
 - Compiler: `Clang++`
@@ -116,9 +117,11 @@ rm -rf ./bin/*
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./src/0704_binary_search/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [C++](./src/0733_flood_fill/main.cpp) | Easy | `Array`,`Depth-First Search`,`Breadth-first Search`,`Matrix` |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](./src/0739_daily_temperatures/main.cpp) | Medium | `Array`,`Stack`,`Monotonic Stack` |
+| 0740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [C++](./src/0740_Delete_and_Earn/main.cpp) | Medium | `Array`,`Hash Table`,`Dynamic Programming` |
 | 0764 | [Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/) | [C++](./src/0764_largest_plus_sign/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [C++](./src/0784_letter_case_permutation/main.cpp) | Medium | `String`,`Backtracking`,`Bit Manipulation` |
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [C++](./src/0797_All_Paths_From_Source_to_Target/main.cpp) | Medium | `Backtracking`,`Depth-First Search`,`Breadth-First Search`,`Graph` |
+| 0799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | [C++](./src/0799_Champagne_Tower/main.cpp) | Medium | `Dynamic Programming` |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./src/0876_middle_of_the_linked_list/main.cpp) | Easy | `Linked List`,`Two Pointers` |
 | 0878 | [Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) | [C++](./src/0878_Nth_Magical_Number/main.cpp) | `Hard` | `Math`,`Binary Search` |
 | 0917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [C++](./src/0917_reverse_only_letters/main.cpp) | Easy | `Two Pointers`,`String` |
@@ -137,6 +140,7 @@ rm -rf ./bin/*
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [C++](./src/1293_shortest_path_in_a_grid_with_obstacles_elimination/main.cpp) | Hard | `Array`,`Breadth-first Search`,`Matrix` |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](./src/1306_Jump_Game_III/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-First Search` |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [C++](./src/1328_break_a_palindrome/main.cpp) | Medium | `String`,`Greedy` |
+| 1359 | [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) | [C++](./src/1359_Count_All_Valid_Pickup_and_Delivery_Options/main.cpp) | Hard | `Math`,`Dynamic Programming`,`combinations` |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/1413_minimum_value_to_get_positive_step_by_step_sum/main.cpp) | Easy | `Array`,`Prefix Sum` |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | [C++](./src/1446_Consecutive_Characters/main.cpp) | Easy | `String` |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./src/1672_Richest_Customer_Wealth/main.cpp) | Easy | `Array`, `Matrix` |

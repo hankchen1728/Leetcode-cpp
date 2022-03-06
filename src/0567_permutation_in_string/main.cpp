@@ -17,6 +17,12 @@ class Solution {
   }
   // Method 1
   bool checkInclusion(string s1, string s2) {
+    // return _checkInclusion_freq(s1, s2);
+    return _checkInclusion_two_pointers(s1, s2);
+  }
+
+  // method using two frequency table
+  bool _checkInclusion_freq(string& s1, string& s2) {
     size_t len1 = s1.length(), len2 = s2.length();
     if (len1 > len2) return false;
 
@@ -37,31 +43,26 @@ class Solution {
     }
     return false;
   }
-  // Method 2
-  bool _checkInclusion(string s1, string s2) {
-    int16_t subLen = s1.length(), len = s2.length();
-    // check length
-    if (len < subLen) return false;
 
-    vector<int16_t> mp(26, 0);
-    // record the frequency of each char in s1
-    for (char& c : s1) mp[c - 'a']++;
+  // method using two pointers
+  bool _checkInclusion_two_pointers(string& s1, string& s2) {
+    if (s1.size() > s2.size()) return false;
 
-    // when every frequency in `mp` is 0, then the permutation is matched
-    for (int16_t left = 0, right = 0; right < len; right++) {
-      mp[s2[right] - 'a']--;
-      if (mp[s2[right] - 'a'] < 0) {
-        // limit left boundary (add frequency back)
-        while (true) {
-          mp[s2[left] - 'a']++;
-          left++;
-          if (mp[s2[left - 1] - 'a'] == 0) break;
-        }
-        cout << "Left = " << left << ", right = " << right << endl;
-      } else if (right - left + 1 == subLen)
-        return true;
+    int len1 = s1.size(), len2 = s2.size(), cnt = len1, L = 0, R = 0;
+    vector<short> mp(123, 0);
+    for (char& ch : s1) ++mp[ch];
+
+    while (R < len2) {
+      // current right char is in s1
+      if (mp[s2[R++]]-- > 0) {
+        cnt--;
+        if (cnt == 0) return true;
+      }
+      // current sliding window has same length to s1
+      if (R - L == len1) {
+        if (mp[s2[L++]]++ >= 0) cnt++;
+      }
     }
-
     return false;
   }
 };
