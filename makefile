@@ -21,6 +21,7 @@ endif
 	else \
 		echo "Compiling binary file: bin/$(prob)"; \
 		$(CC) $(CFLAG) src/$(prob)/main.cpp src/Utils/myUtils.cpp -o bin/$(prob); \
+		./bin/$(prob); \
 	fi
 
 clean:

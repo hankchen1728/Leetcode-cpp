@@ -14,12 +14,32 @@ class Solution {
     cin.tie(nullptr);
     cout.tie(nullptr);
   }
+
   ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    // return _mergeTwoLists_iterative(l1, l2);
+    return _mergeTwoLists_recursive(l1, l2);
+  }
+
+  ListNode* _mergeTwoLists_recursive(ListNode* l1, ListNode* l2) {
     // check if one of the list is empty
     if (l1 == nullptr) return l2;
     if (l2 == nullptr) return l1;
 
-    // if (l1->val > l2->val) return mergeTwoLists(l2, l1);
+    if (l1->next < l2->next) {
+      l1->next = _mergeTwoLists_recursive(l1->next, l2);
+      return l1;
+    } else {
+      l2->next = _mergeTwoLists_recursive(l2->next, l1);
+      return l2;
+    }
+
+    return nullptr;
+  }
+
+  ListNode* _mergeTwoLists_iterative(ListNode* l1, ListNode* l2) {
+    // check if one of the list is empty
+    if (l1 == nullptr) return l2;
+    if (l2 == nullptr) return l1;
 
     ListNode* root = new ListNode();
     ListNode* curr = root;
@@ -34,10 +54,8 @@ class Solution {
       curr = curr->next;
     }
 
-    if (l1 != nullptr)
-      curr->next = l1;
-    else if (l2 != nullptr)
-      curr->next = l2;
+    // connect the remaining nodes
+    curr->next = (l1 != nullptr) ? l1 : l2;
 
     return root->next;
   }
@@ -46,9 +64,12 @@ class Solution {
 
 int main() {
   // Write something here
-  vector<vector<int>> testL1s = {{1, 2, 4}, {}, {}};
-  vector<vector<int>> testL2s = {{1, 3, 4}, {}, {0}};
-  size_t nTest = testL1s.size();
+  vector<pair<vector<int>, vector<int>>> testPairs = {
+      {{1, 2, 4}, {1, 3, 4}},  // [1,1,2,3,4,4]
+      {{}, {}},                // []
+      {{}, {0}},               // [0]
+  };
+  size_t nTest = testPairs.size();
 
   for (size_t i = 0; i < nTest; i++) {
     cout << "\e[1m"
@@ -56,11 +77,12 @@ int main() {
     // print the test case input here!
     cout << "Input:"
          << "\e[0m "
-         << "l1 = " << intVectorToString(testL1s[i])
-         << ", l2 = " << intVectorToString(testL2s[i]) << endl;
+         << "l1 = " << intVectorToString(testPairs[i].first)
+         << ", l2 = " << intVectorToString(testPairs[i].second) << endl;
     // Call the Solution function here!
-    ListNode* res = Solution().mergeTwoLists(intVectorToListNode(testL1s[i]),
-                                             intVectorToListNode(testL2s[i]));
+    ListNode* res =
+        Solution().mergeTwoLists(intVectorToListNode(testPairs[i].first),
+                                 intVectorToListNode(testPairs[i].second));
     cout << "\e[1m"
          << "Output: "
          << "\e[0m " << listNodeToString(res) << endl;

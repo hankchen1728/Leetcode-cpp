@@ -47,6 +47,7 @@ rm -rf ./bin/*
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./src/0046_permutations/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./src/0053_maximum_subarray/main.cpp) | Easy | `Array`,`Divide and Conquer`,`Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](./src/0054_spiral_matrix/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [C++](./src/0061_Rotate_List/main.cpp) | Medium | `Linked List`,`Two Pointers` |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./src/0062_unique_paths/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Combinations` |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./src/0063_unique_paths_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Matrix` |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./src/0077_combinations/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
@@ -63,6 +64,7 @@ rm -rf ./bin/*
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./src/0122_best_time_to_buy_and_sell_stock_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Greedy` |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./src/0136_single_number/main.cpp) | Easy | `Array`,`Bit Manipulation` |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./src/0137_single_number_ii/main.cpp) | Medium | `Array`,`Bit Manipulation` |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](./src/0141_Linked_List_Cycle/main.cpp) | Easy | `Hash Table`,`Linked List`,`Two Pointers` |
 | 0147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [C++](./src/0147_Insertion_Sort_List/main.cpp) | Medium | `Linked List`,`Sorting` |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./src/0152_Maximum_Product_Subarray/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/0153_find_minimum_in_rotated_sorted_array/main.cpp) | Medium | `Array`,`Binary Search` |
@@ -126,6 +128,7 @@ rm -rf ./bin/*
 | 0878 | [Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) | [C++](./src/0878_Nth_Magical_Number/main.cpp) | `Hard` | `Math`,`Binary Search` |
 | 0917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [C++](./src/0917_reverse_only_letters/main.cpp) | Easy | `Two Pointers`,`String` |
 | 0940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | [C++](./src/0940_distinct_subsequences_ii/main.cpp) | Hard | `String`, `Dynamic Programming` |
+| 0976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [C++](./src/0976_Largest_Perimeter_Triangle/main.cpp) | Easy | `Array`,`Math`,`Greedy`,`Sorting` |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
 | 0978 | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [C++](./src/0978_longest_turbulent_subarray/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Sliding Window` |
 | 0980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [C++](./src/0980_Unique_Paths_III/main.cpp) | Hard | `Array`,`Backtracking`,`Bit Manipulation`,`Matrix` |
@@ -135,6 +138,7 @@ rm -rf ./bin/*
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [C++](./src/1189_maximum_number_of_balloons/main.cpp) | Easy | `Hash Table`,`String`,`Counting` |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](./src/1217_Minimum_Cost_to_Move_Chips_to_The_Same_Position/main.cpp) | Easy | `Array`,`Math`,`Greedy` |
 | 1275 | [Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | [C++](./src/1275_find_winner_on_a_tic_tac_toe_game/main.cpp) | Easy | `Array`,`Hash Table`,`Matrix`,`Simulation` |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | | [C++](./src/1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer/main.cpp) | Easy | `Math` |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/) | [C++](./src/1288_Remove_Covered_Intervals/main.cpp) | Medium | `Array`,`Sorting` |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [C++](./src/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer/main.cpp) | Easy | `Linked List`,`Math` |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [C++](./src/1293_shortest_path_in_a_grid_with_obstacles_elimination/main.cpp) | Hard | `Array`,`Breadth-first Search`,`Matrix` |
@@ -143,6 +147,8 @@ rm -rf ./bin/*
 | 1359 | [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) | [C++](./src/1359_Count_All_Valid_Pickup_and_Delivery_Options/main.cpp) | Hard | `Math`,`Dynamic Programming`,`combinations` |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/1413_minimum_value_to_get_positive_step_by_step_sum/main.cpp) | Easy | `Array`,`Prefix Sum` |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | [C++](./src/1446_Consecutive_Characters/main.cpp) | Easy | `String` |
+| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | [C++](./src/1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary/main.cpp) | Easy | `Array`,`Sorting` |
+| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [C++](./src/1523_Count_Odd_Numbers_in_an_Interval_Range/main.cpp) | Easy | `Math` |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./src/1672_Richest_Customer_Wealth/main.cpp) | Easy | `Array`, `Matrix` |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
