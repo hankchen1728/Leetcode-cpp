@@ -38,11 +38,14 @@ rm -rf ./bin/*
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C++](./src/0009_palindrome_number/main.cpp) | Easy | `Math` |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./src/0011_container_with_most_water/main.cpp) | Medium | `Array`,`Two Pointers`,`Greedy` |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [C++](./src/0019_remove_nth_node_from_end_of_list/main.cpp) | Medium | `Linked List`,`Two Pointers` |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C++](./src/0020_Valid_Parentheses/main.cpp) | Easy | `String`,`Stack` |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./src/0021_merge_two_sorted_lists/main.cpp) | Easy | `Linked List`,`Recursion` |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./src/0023_Merge_k_Sorted_Lists/main.cpp) | Hard | `Linked List`,`Divide and Conquer`,`Heap (Priority Queue)`,`Merge Sort` |
+| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./src/0024_Swap_Nodes_in_Pairs/main.cpp) | Medium | `Linked List`,`Recursion` |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./src/0033_search_in_rotated_sorted_array/main.cpp) | Medium | `Array`, `Binary Search` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/0034_find_first_and_last_position_of_element_in_sorted_array/) | Medium | `Array`,`Binary Search` |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](./src/0035_search_insert_position/main.cpp) | Easy | `Array`,`Binary Search` |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C++](./src/0039_Combination_Sum/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](./src/0043_multiply_strings/main.cpp) | Medium | `Math`,`String`,`Simulation` |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./src/0046_permutations/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./src/0053_maximum_subarray/main.cpp) | Easy | `Array`,`Divide and Conquer`,`Dynamic Programming` |
@@ -53,6 +56,7 @@ rm -rf ./bin/*
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./src/0077_combinations/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](./src/0074_search_a_2d_matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Matrix` |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [C++](./src/0077_combinations/main.cpp) | Medium | `Array`,`Backtracking` |
+| 0078 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./src/0078_Subsets/main.cpp) | Medium | `Array`,`Backtracking`,`Bit Manipulation` |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [C++](./src/0080_Remove_Duplicates_from_Sorted_Array_II/main.cpp) | Medium | `Array`,`Two Pointers` |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [C++](./src/0088_merge_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting` |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [C++](./src/0096_unique_binary_search_trees/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Tree`,`Binary Search Tree`,`Binary Tree` |

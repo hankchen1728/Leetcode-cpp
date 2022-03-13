@@ -4,6 +4,8 @@
 #define BOOL2STR(Cond) ((Cond) ? "true" : "false")
 
 #include <iomanip>
+#include <iostream>
+#include <stack>
 #include <string>
 #include <vector>
 using namespace std;
@@ -78,5 +80,27 @@ struct TreeNode {
   TreeNode(int x, TreeNode *left, TreeNode *right)
       : val(x), left(left), right(right) {}
 };
+
+template <typename T>
+void PrintStack(stack<T> s) {
+  // If stack is empty then return
+  if (s.empty()) return;
+
+  int x = s.top();
+
+  // Pop the top element of the stack
+  s.pop();
+
+  // Recursively call the function PrintStack
+  PrintStack(s);
+
+  // Print the stack element starting
+  // from the bottom
+  cout << x << ", ";
+
+  // Push the same element onto the stack
+  // to preserve the order
+  s.push(x);
+}
 
 #endif
