@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 CC := clang++
-CFLAG:= -Wall -std=c++17 -O3 -fsanitize=address
+CFLAGS:= -Wall -std=c++17 -O3 -fsanitize=address
+CFLAGS += -Isrc/Utils
 EDITOR := nvim
 
 ifeq (problem,$(firstword $(MAKECMDGOALS)))
@@ -20,7 +21,7 @@ endif
 		echo "No matched problem ID found"; \
 	else \
 		echo "Compiling binary file: bin/$(prob)"; \
-		$(CC) $(CFLAG) src/$(prob)/main.cpp src/Utils/myUtils.cpp -o bin/$(prob); \
+		$(CC) $(CFLAGS) src/$(prob)/main.cpp src/Utils/myUtils.cpp -o bin/$(prob); \
 		./bin/$(prob); \
 	fi
 
@@ -30,5 +31,10 @@ clean:
 problem:
 	$(eval PROB_ID = $(shell printf '%04d' $(subst .,,$(PROB_ID))))
 	$(eval PROB_TITLE = $(shell echo "${PROB_TITLE}" | sed -e 's/ /_/g'))
-	cp -r ./src/Template ./src/$(PROB_ID)_$(PROB_TITLE)
-	$(EDITOR) ./src/$(PROB_ID)_$(PROB_TITLE)/main.cpp
+	$(eval PROB_DEST = "./src/$(PROB_ID)_$(PROB_TITLE)")
+	@if [ -d $(PROB_DEST) ]; then \
+		echo "Problem folder exists"; \
+	else \
+		cp -r ./src/Template ./src/$(PROB_ID)_$(PROB_TITLE); \
+		$(EDITOR) ./src/$(PROB_ID)_$(PROB_TITLE)/main.cpp; \
+	fi

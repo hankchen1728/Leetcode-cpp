@@ -1,6 +1,10 @@
 # .gitignore itself
 .gitignore
 
+# config files for compiler and language servers
+compile_flags.txt
+pyrightconfig.json
+
 # compiled binary
 bin/*
 **/*.o

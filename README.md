@@ -42,6 +42,7 @@ rm -rf ./bin/*
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C++](./src/0021_merge_two_sorted_lists/main.cpp) | Easy | `Linked List`,`Recursion` |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./src/0023_Merge_k_Sorted_Lists/main.cpp) | Hard | `Linked List`,`Divide and Conquer`,`Heap (Priority Queue)`,`Merge Sort` |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./src/0024_Swap_Nodes_in_Pairs/main.cpp) | Medium | `Linked List`,`Recursion` |
+| 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [C++](./src/0031_Next_Permutation/main.cpp) | Medium | `Array`,`Two Pointers` |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./src/0033_search_in_rotated_sorted_array/main.cpp) | Medium | `Array`, `Binary Search` |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [C++](./src/0034_find_first_and_last_position_of_element_in_sorted_array/) | Medium | `Array`,`Binary Search` |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [C++](./src/0035_search_insert_position/main.cpp) | Easy | `Array`,`Binary Search` |
@@ -54,6 +55,7 @@ rm -rf ./bin/*
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./src/0062_unique_paths/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Combinations` |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./src/0063_unique_paths_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Matrix` |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [C++](./src/0077_combinations/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
+| 0071 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [C++](./src/0071_Simplify_Path/main.cpp) | Medium | `String`,`Stack` |
 | 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [C++](./src/0074_search_a_2d_matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Matrix` |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [C++](./src/0077_combinations/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./src/0078_Subsets/main.cpp) | Medium | `Array`,`Backtracking`,`Bit Manipulation` |
@@ -119,6 +121,7 @@ rm -rf ./bin/*
 | 0566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [C++](./src/0566_reshape_the_matrix/main.cpp) | Easy | `Array`,`Matrix`,`Simulation` |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./src/0567_permutation_in_string/main.cpp) | Medium | `Hash Table`,`Two Pointers`,`String`,`Sliding Window`|
 | 0668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [C++](./src/0668_kth_smallest_number_in_multiplication_table/main.cpp) | Hard | `Binary Search` |
+| 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [C++](./src/0680_Valid_Palindrome_II/main.cpp) | Easy | `Two Pointers`,`String`,`Greedy` |
 | 0695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [C++](./src/0695_max_area_of_island/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-first Search`,`Union Find`,`Matix` |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./src/0704_binary_search/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [C++](./src/0733_flood_fill/main.cpp) | Easy | `Array`,`Depth-First Search`,`Breadth-first Search`,`Matrix` |
