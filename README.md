@@ -134,6 +134,7 @@ rm -rf ./bin/*
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./src/0876_middle_of_the_linked_list/main.cpp) | Easy | `Linked List`,`Two Pointers` |
 | 0878 | [Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) | [C++](./src/0878_Nth_Magical_Number/main.cpp) | `Hard` | `Math`,`Binary Search` |
 | 0917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [C++](./src/0917_reverse_only_letters/main.cpp) | Easy | `Two Pointers`,`String` |
+| 0923 | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [C++](./src/0923_3Sum_With_Multiplicity/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`,`Counting` |
 | 0940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | [C++](./src/0940_distinct_subsequences_ii/main.cpp) | Hard | `String`, `Dynamic Programming` |
 | 0976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [C++](./src/0976_Largest_Perimeter_Triangle/main.cpp) | Easy | `Array`,`Math`,`Greedy`,`Sorting` |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [C++](./src/0977_squares_of_a_sorted_array/main.cpp) | Easy | `Array`,`Two Pointers`,`Sorting`|
@@ -141,6 +142,7 @@ rm -rf ./bin/*
 | 0980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [C++](./src/0980_Unique_Paths_III/main.cpp) | Hard | `Array`,`Backtracking`,`Bit Manipulation`,`Matrix` |
 | 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [C++](./src/0986_Interval_List_Intersections/main.cpp) | Medium | `Array`,`Two Pointers` |
 | 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./src/0994_rotting_oranges/main.cpp) | Medium | `Array`,`Breadth-first Search`,`Matrix` |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [C++](./src/1046_Last_Stone_Weight/main.cpp) | Easy | `Array`,`Heap (Priority Queue)` |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [C++](./src/1137_n-th_tribonacci_number/main.cpp) | Easy | `Math`,`Dynamic Programming`,`Memoization` |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | [C++](./src/1189_maximum_number_of_balloons/main.cpp) | Easy | `Hash Table`,`String`,`Counting` |
 | 1217 | [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | [C++](./src/1217_Minimum_Cost_to_Move_Chips_to_The_Same_Position/main.cpp) | Easy | `Array`,`Math`,`Greedy` |
@@ -159,6 +161,7 @@ rm -rf ./bin/*
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./src/1672_Richest_Customer_Wealth/main.cpp) | Easy | `Array`, `Matrix` |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
+| 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [C++](./src/1721_Swapping_Nodes_in_a_Linked_List/main.cpp) | Medium | `Linked List`,`Two Pointers` |
 | 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | [C++](./src/1987_number_of_unique_good_subsequences/main.cpp) | Hard | `String`,`Dynamic Programming` |
 
 ## References

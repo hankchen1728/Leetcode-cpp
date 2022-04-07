@@ -1,46 +1,44 @@
-#include <algorithm>
 #include <iostream>
 #include <vector>
 
-#include "../Utils/myUtils.h"
+#include "myUtils.h"
 
 using namespace std;
 
 // Solution begin
 class Solution {
  public:
-  Solution() {
-    // Speedup
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-  }
+  // Solution() {
+  //   // Speedup
+  //   ios::sync_with_stdio(0);
+  //   cin.tie(0);
+  //   cout.tie(0);
+  // }
   int maxArea(vector<int>& height) {
-    if (height.size() == 2) return min(height[0], height[1]);
-    int left = 0, right = height.size() - 1;
+    int L = 0, R = height.size() - 1;
+    int res = 0, h;
 
-    int area = 0;
-    while (left < right) {
-      area = max(area, min(height[left], height[right]) * (right - left));
-      if (height[left] <= height[right]) {
-        left++;
-      } else {
-        right--;
-      }
+    while (L < R) {
+      h = min(height[L], height[R]);
+      res = max(res, h * (R - L));
+
+      // height[L] < height[R] ? ++L : --R;
+
+      // keep moving until the height is larger than current minimal one
+      while (L < R && h >= height[L]) ++L;
+      while (L < R && h >= height[R]) --R;
     }
-    return area;
+    return res;
   }
 };
 // Solution end
 
 int main() {
   // Write something here
-  vector<vector<int>> testHeights = {{1, 8, 6, 2, 5, 4, 8, 3, 7},
-                                     {1, 1},
-                                     {4, 3, 2, 1, 4},
-                                     {1, 2, 1},
-                                     {1, 8, 6, 2, 5, 4, 8, 25, 7},
-                                     {1, 3, 2, 5, 25, 24, 5}};
+  vector<vector<int>> testHeights = {
+      {1, 8, 6, 2, 5, 4, 8, 3, 7},  // 49
+      {1, 1},                       // 1
+  };
   size_t nTest = testHeights.size();
 
   for (size_t i = 0; i < nTest; i++) {
@@ -51,10 +49,10 @@ int main() {
          << "\e[0m "
          << "height = " << intVectorToString(testHeights[i]) << endl;
     // Call the Solution function here!
-    int ans = Solution().maxArea(testHeights[i]);
+    int res = Solution().maxArea(testHeights[i]);
     cout << "\e[1m"
          << "Output: "
-         << "\e[0m " << ans << endl;
+         << "\e[0m " << res << endl;
     cout << "===========" << endl;
   }
 }
