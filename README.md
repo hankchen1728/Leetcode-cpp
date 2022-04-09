@@ -99,8 +99,10 @@ rm -rf ./bin/*
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./src/0338_Counting_Bits/main.cpp) | Easy | `Dynamic Programming`,`Bit Manipulation` |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [C++](./src/0344_reverse_string/main.cpp) | Easy | `Two Pointers`,`String`,`Recursion` |
+| 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./src/0347_Top_K_Frequent_Elements/main.cpp) | Medium | `Array`,`Hash Table`,`Divide and Conquer`,`Sorting`,`Heap (Priority Queue)`,`Bucket Sort`,`Counting`,`Quickselect` |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./src/0350_intersection_of_two_arrays_ii/main.cpp) | Easy | `Array`,`Hash Table`,`Two Pointers`,`Binary Search`,`Sorting` |
 | 0368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | [C++](./src/0368_largest_divisible_subset/main.cpp) | Medium | `Array`,`Math`,`Dynamic Programming`,`Sorting` |
+| 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [C++](./src/0374_Guess_Number_Higher_or_Lower/main.cpp) | Easy | `Binary Search`,`Interactive` |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [C++](./src/0378_Kth_Smallest_Element_in_a_Sorted_Matrix/main.cpp) | Medium | `Array`,`Binary Search`,`Sorting`,`Heap (Priority Queue)`,`Matrix` |
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | [C++](./src/0389_Find_the_Difference/main.cpp) | Easy | `Hash Table`,`String`,`Bit Manipulation`,`Sorting` |
 | 0413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./src/0413_arithmetic_slices/main.cpp) | Medium | `Array`,`Dynamic Programming` |
@@ -123,6 +125,7 @@ rm -rf ./bin/*
 | 0668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | [C++](./src/0668_kth_smallest_number_in_multiplication_table/main.cpp) | Hard | `Binary Search` |
 | 0680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | [C++](./src/0680_Valid_Palindrome_II/main.cpp) | Easy | `Two Pointers`,`String`,`Greedy` |
 | 0695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [C++](./src/0695_max_area_of_island/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-first Search`,`Union Find`,`Matix` |
+| 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [C++](./src/0703_Kth_Largest_Element_in_a_Stream/main.cpp) | Easy | `Tree`,`Design`,`Binary Search Tree`,`Heap (Priority Queue)`,`Binary Tree`,`Data Stream`|
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [C++](./src/0704_binary_search/main.cpp) | Easy | `Array`,`Binary Search` |
 | 0733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [C++](./src/0733_flood_fill/main.cpp) | Easy | `Array`,`Depth-First Search`,`Breadth-first Search`,`Matrix` |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [C++](./src/0739_daily_temperatures/main.cpp) | Medium | `Array`,`Stack`,`Monotonic Stack` |
