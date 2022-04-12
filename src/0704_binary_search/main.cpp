@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "../Utils/myUtils.h"
+#include "myUtils.h"
 
 using namespace std;
 
@@ -10,18 +10,18 @@ class Solution {
  public:
   int search(vector<int>& nums, int target) {
     // The algorithm
-    int lPtr = 0, rPtr = nums.size() - 1;
-    int center;
+    int16_t L = 0, R = nums.size() - 1;
+    int16_t mid;
 
-    while (lPtr <= rPtr) {
-      center = (rPtr + lPtr) / 2;
+    while (L <= R) {
+      mid = (R + L) / 2;
 
-      if (nums[center] > target) {
-        rPtr = center - 1;
-      } else if (nums[center] < target) {
-        lPtr = center + 1;
+      if (nums[mid] > target) {
+        R = mid - 1;
+      } else if (nums[mid] < target) {
+        L = mid + 1;
       } else
-        return center;
+        return (int)mid;
     }
     return -1;
   }
@@ -30,14 +30,11 @@ class Solution {
 
 int main() {
   // Write something here
-  vector<vector<int>> testNums = {
-      {-1, 0, 3, 5, 9, 12},
-      {-1, 0, 3, 5, 9, 12},
-      {-1, 0, 3, 5, 9, 12},
-      {-1, 0, 3, 5, 9, 12}
+  vector<pair<vector<int>, int>> testCases = {
+      {{-1, 0, 3, 5, 9, 12}, 9},  // 4
+      {{-1, 0, 3, 5, 9, 12}, 2},  // -1
   };
-  vector<int> testTargets = {9, 2, -1, 12};
-  size_t nTest = testNums.size();
+  size_t nTest = testCases.size();
 
   for (size_t i = 0; i < nTest; i++) {
     cout << "\e[1m"
@@ -45,13 +42,13 @@ int main() {
     // print the test case input here!
     cout << "Input:"
          << "\e[0m "
-         << "nums = " << intVectorToString(testNums[i])
-         << ", target = " << testTargets[i] << endl;
+         << "nums = " << intVectorToString(testCases[i].first)
+         << ", target = " << testCases[i].second << endl;
     // Call the Solution function here!
-    int idx = Solution().search(testNums[i], testTargets[i]);
+    int res = Solution().search(testCases[i].first, testCases[i].second);
     cout << "\e[1m"
          << "Output: "
-         << "\e[0m " << idx << endl;
+         << "\e[0m " << res << endl;
     cout << "===========" << endl;
   }
 }
