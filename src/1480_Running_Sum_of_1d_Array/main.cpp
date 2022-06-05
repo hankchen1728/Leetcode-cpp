@@ -1,6 +1,4 @@
-#include <bitset>
 #include <iostream>
-#include <numeric>
 #include <vector>
 
 #include "myUtils.h"
@@ -16,22 +14,22 @@ class Solution {
     cin.tie(nullptr);
     cout.tie(nullptr);
   }
-  bool canPartition(vector<int>& nums) {
-    int targetSum = accumulate(nums.begin(), nums.end(), 0);
+  vector<int> runningSum(vector<int>& nums) {
+    int16_t N = nums.size();
+    for (int16_t i = 1; i < N; ++i) nums[i] += nums[i - 1];
 
-    if (targetSum % 2) return false;
-    targetSum /= 2;
-    bitset<10001> bitmask(1);
-
-    for (int& n : nums) bitmask = bitmask | bitmask << n;
-    return bitmask[targetSum];
+    return nums;
   }
 };
 // Solution end
 
 int main() {
   // Setting the test cases
-  vector<vector<int>> testCase = {{1, 5, 11, 5}, {1, 2, 3, 5}};
+  vector<vector<int>> testCase = {
+      {1, 2, 3, 4},
+      {1, 1, 1, 1, 1},
+      {3, 1, 2, 10, 1},
+  };
   size_t nTest = testCase.size();
 
   for (size_t i = 0; i < nTest; i++) {
@@ -41,10 +39,10 @@ int main() {
     cout << "Input:"
          << "\e[0m nums = " << intVectorToString(testCase[i]) << endl;
     // Call the Solution function here!
-    bool res = Solution().canPartition(testCase[i]);
+    vector<int> res = Solution().runningSum(testCase[i]);
     cout << "\e[1m"
          << "Output: "
-         << "\e[0m " << BOOL2STR(res) << endl;
+         << "\e[0m " << intVectorToString(res) << endl;
     cout << "===========" << endl;
   }
 }

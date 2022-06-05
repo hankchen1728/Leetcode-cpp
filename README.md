@@ -49,8 +49,11 @@ rm -rf ./bin/*
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [C++](./src/0039_Combination_Sum/main.cpp) | Medium | `Array`,`Backtracking` |
 | 0043 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [C++](./src/0043_multiply_strings/main.cpp) | Medium | `Math`,`String`,`Simulation` |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./src/0046_permutations/main.cpp) | Medium | `Array`,`Backtracking` |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [C++](./src/0051_N-Queens/main.cpp) | Hard | `Array`, `Backtracking` |
+| 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [C++](./src/0052_N-Queens_II/main.cpp) | Hard | `Backtracking` |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./src/0053_maximum_subarray/main.cpp) | Easy | `Array`,`Divide and Conquer`,`Dynamic Programming` |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [C++](./src/0054_spiral_matrix/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
+| 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [C++](./src/0059_Spiral_Matrix_II/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [C++](./src/0061_Rotate_List/main.cpp) | Medium | `Linked List`,`Two Pointers` |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./src/0062_unique_paths/main.cpp) | Medium | `Math`,`Dynamic Programming`,`Combinations` |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./src/0063_unique_paths_ii/main.cpp) | Medium | `Array`,`Dynamic Programming`,`Matrix` |
@@ -96,6 +99,7 @@ rm -rf ./bin/*
 | 0282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [C++](./src/0282_expression_add_operators/main.cpp) | Hard | `Math`,`String`,`Backtracking` |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./src/0283_move_zeroes/main.cpp) | Easy | `Array`,`Two Pointers` |
 | 0289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [C++](./src/0289_Game_of_Life/main.cpp) | Medium | `Array`,`Matrix`,`Simulation` |
+| 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [C++](./src/0304_Range_Sum_Query_2D_Immutable/main.cpp) | Medium | `Array`,`Design`,`Matrix`,`Prefix Sum` |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./src/0328_Odd_Even_Linked_List/main.cpp) | Medium | `Linked List` |
 | 0331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | [C++](./src/0331_verify_preorder_serialization_of_a_binary_tree/main.cpp) | Medium | `String`,`Stack`,`Tree`,`Binary Tree` |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./src/0338_Counting_Bits/main.cpp) | Easy | `Dynamic Programming`,`Bit Manipulation` |
@@ -138,6 +142,7 @@ rm -rf ./bin/*
 | 0797 | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [C++](./src/0797_All_Paths_From_Source_to_Target/main.cpp) | Medium | `Backtracking`,`Depth-First Search`,`Breadth-First Search`,`Graph` |
 | 0799 | [Champagne Tower](https://leetcode.com/problems/champagne-tower/) | [C++](./src/0799_Champagne_Tower/main.cpp) | Medium | `Dynamic Programming` |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [C++](./src/0852_Peak_Index_in_a_Mountain_Array/main.cpp) | Easy | `Array`,`Binary Search` |
+| 0876 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [C++](./src/0867_Transpose_Matrix/main.cpp) | Easy | `Array`,`Matrix`,`Simulation` |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [C++](./src/0876_middle_of_the_linked_list/main.cpp) | Easy | `Linked List`,`Two Pointers` |
 | 0878 | [Nth Magical Number](https://leetcode.com/problems/nth-magical-number/) | [C++](./src/0878_Nth_Magical_Number/main.cpp) | `Hard` | `Math`,`Binary Search` |
 | 0917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | [C++](./src/0917_reverse_only_letters/main.cpp) | Easy | `Two Pointers`,`String` |
@@ -163,7 +168,9 @@ rm -rf ./bin/*
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [C++](./src/1328_break_a_palindrome/main.cpp) | Medium | `String`,`Greedy` |
 | 1359 | [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) | [C++](./src/1359_Count_All_Valid_Pickup_and_Delivery_Options/main.cpp) | Hard | `Math`,`Dynamic Programming`,`combinations` |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/1413_minimum_value_to_get_positive_step_by_step_sum/main.cpp) | Easy | `Array`,`Prefix Sum` |
+| 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | [C++](./src/1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR/) | Medium | `Array`,`Hash Table`,`Math`,`Bit Manipulation`,`Prefix Sum` |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | [C++](./src/1446_Consecutive_Characters/main.cpp) | Easy | `String` |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [C++](./src/1480_Running_Sum_of_1d_Array/) | Easy | `Array`, `Prefix Sum` |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | [C++](./src/1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary/main.cpp) | Easy | `Array`,`Sorting` |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [C++](./src/1523_Count_Odd_Numbers_in_an_Interval_Range/main.cpp) | Easy | `Math` |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./src/1672_Richest_Customer_Wealth/main.cpp) | Easy | `Array`, `Matrix` |
