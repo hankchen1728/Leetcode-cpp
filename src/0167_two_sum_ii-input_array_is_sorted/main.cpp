@@ -1,39 +1,45 @@
 #include <iostream>
 #include <vector>
 
-#include "../Utils/myUtils.h"
+#include "myUtils.h"
 
 using namespace std;
 
 // Solution begin
-class Solution {
+class Solution
+{
  public:
-  vector<int> twoSum(vector<int>& numbers, int target) {
-    vector<int> pair(2, 1);
-    int l = 0, r = numbers.size() - 1;
+  vector<int> twoSum(vector<int>& numbers, int target)
+  {
+    int16_t L = 0, R = numbers.size() - 1;
+    int pairSum;
 
-    while (l < r) {
-      if (numbers[l] + numbers[r] > target) {
-        r--;
-      } else if (numbers[l] + numbers[r] < target) {
-        l++;
-      } else {
-        pair[0] = l+1; pair[1] = r+1;
-        return pair;
-      }
+    while (L < R)
+    {
+      pairSum = numbers[L] + numbers[R];
+
+      if (pairSum > target)
+        --R;
+      else if (pairSum < target)
+        ++L;
+      else
+        break;
     }
-    return pair;
+
+    return {L + 1, R + 1};
   }
 };
 // Solution end
 
-int main() {
+int main()
+{
   // Write something here
   vector<vector<int>> testNums = {{2, 7, 11, 15}, {2, 3, 4}, {-1, 0}};
   vector<int> testTargets = {9, 6, -1};
   size_t nTest = testNums.size();
 
-  for (size_t i = 0; i < nTest; i++) {
+  for (size_t i = 0; i < nTest; i++)
+  {
     cout << "\e[1m"
          << "Example " << i + 1 << ":" << endl;
     // print the test case input here!

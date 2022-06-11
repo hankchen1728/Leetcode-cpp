@@ -2,31 +2,35 @@
 #include <string>
 #include <vector>
 
+#include "myUtils.h"
+
 using namespace std;
 
 // Solution begin
-class Solution {
+class Solution
+{
  public:
-  int lengthOfLongestSubstring(string s) {
-    // Check if empty string
-    size_t sLen = s.size();
-    if (sLen == 0) return 0;
+  int lengthOfLongestSubstring(string s)
+  {
+    int16_t N = s.size();
 
-    // vector for recording position
-    vector<int> charPos(128, -1);
-    int maxLen = 0;  // length of current extract substring
-    int rem = -1;    // left position of current extract substring
+    // array for recording position
+    int16_t charPos[127];
+    memset(charPos, -1, 127 * sizeof(int16_t));
+
+    int maxLen = 0;
 
     char c;
-    for (int i = 0; i < sLen; i++) {
-      c = s[i];
+    for (int16_t R = 0, L = -1; R < N; ++R)
+    {
+      c = s[R];
       // moving left position forward right or not
-      rem = max(charPos[c], rem);
+      L = max(charPos[c], L);
 
       // recording the position
-      charPos[c] = i;
+      charPos[c] = R;
       // check if longest
-      maxLen = max(maxLen, i - rem);
+      maxLen = max(maxLen, R - L);
     }
 
     return maxLen;
@@ -34,14 +38,24 @@ class Solution {
 };
 // Solution end
 
-int main() {
-  vector<string> testStrs{"abcabcbb", "bbbbb", "pwwkew"};
+int main()
+{
+  vector<string> testStrs{
+      "abcabcbb",  // 3
+      "bbbbb",     // 1
+      "pwwkew",    // 3
+  };
 
-  for (size_t i_test = 0; i_test < testStrs.size(); i_test++) {
+  for (size_t i_test = 0; i_test < testStrs.size(); i_test++)
+  {
+    cout << Bold("Example " + to_string(i_test + 1) + ":") << endl;
+    // print the test case input here!
+    cout << Bold("Input: ") << " s = " << testStrs[i_test] << endl;
+
+    // Call the Solution function here!
     int lenSub = Solution().lengthOfLongestSubstring(testStrs[i_test]);
-    cout << "Example " << i_test+1 << endl;
-    cout << "Input: s = " << testStrs[i_test] << endl;
-    cout << "Output:" << lenSub << endl;
+    cout << Bold("Output: ") << lenSub << endl;
+
     cout << "========================" << endl;
   }
 }

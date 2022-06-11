@@ -77,6 +77,7 @@ rm -rf ./bin/*
 | 0147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | [C++](./src/0147_Insertion_Sort_List/main.cpp) | Medium | `Linked List`,`Sorting` |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [C++](./src/0152_Maximum_Product_Subarray/main.cpp) | Medium | `Array`,`Dynamic Programming` |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [C++](./src/0153_find_minimum_in_rotated_sorted_array/main.cpp) | Medium | `Array`,`Binary Search` |
+| 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [C++](./src/0160_Intersection_of_Two_Linked_Lists/main.cpp) | Easy | `Hash Table`,`Linked List`,`Two Pointers` |
 | 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [C++](./src/0162_find_peak_element/main.cpp) | Medium | `Array`,`Binary Search` |
 | 0165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | [C++](./src/0165_Compare_Version_Numbers/main.cpp) | Medium | `Two Pointers`,`String` |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [C++](./src/0167_two_sum_ii_-_input_array_is_sorted/main.cpp) | Easy | `Array`,`Two Pointers`,`Binary Search` |
@@ -166,6 +167,7 @@ rm -rf ./bin/*
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [C++](./src/1293_shortest_path_in_a_grid_with_obstacles_elimination/main.cpp) | Hard | `Array`,`Breadth-first Search`,`Matrix` |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [C++](./src/1306_Jump_Game_III/main.cpp) | Medium | `Array`,`Depth-First Search`,`Breadth-First Search` |
 | 1328 | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/) | [C++](./src/1328_break_a_palindrome/main.cpp) | Medium | `String`,`Greedy` |
+| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [C++](./src/1332_Remove_Palindromic_Subsequences/main.cpp) | Easy | `Two Pointers`,`String` |
 | 1359 | [Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) | [C++](./src/1359_Count_All_Valid_Pickup_and_Delivery_Options/main.cpp) | Hard | `Math`,`Dynamic Programming`,`combinations` |
 | 1413 | [Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/) | [C++](./src/1413_minimum_value_to_get_positive_step_by_step_sum/main.cpp) | Easy | `Array`,`Prefix Sum` |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | [C++](./src/1442_Count_Triplets_That_Can_Form_Two_Arrays_of_Equal_XOR/) | Medium | `Array`,`Hash Table`,`Math`,`Bit Manipulation`,`Prefix Sum` |
@@ -173,6 +175,7 @@ rm -rf ./bin/*
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [C++](./src/1480_Running_Sum_of_1d_Array/) | Easy | `Array`, `Prefix Sum` |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | [C++](./src/1491_Average_Salary_Excluding_the_Minimum_and_Maximum_Salary/main.cpp) | Easy | `Array`,`Sorting` |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [C++](./src/1523_Count_Odd_Numbers_in_an_Interval_Range/main.cpp) | Easy | `Math` |
+| 1658 | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [C++](./src/1658_Minimum_Operations_to_Reduce_X_to_Zero/main.cpp) | Medium | `Array`,`Hash Table`,`Binary Search`,`Sliding Window`,`Prefix Sum` |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./src/1672_Richest_Customer_Wealth/main.cpp) | Easy | `Array`, `Matrix` |
 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [C++](./src/1679_max_mumber_of_K-sum_pairs/main.cpp) | Medium | `Array`,`Hash Table`,`Two Pointers`,`Sorting`|
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./src/1711_count_good_meals/main.cpp) | Medium | `Array`, `Hash Table` |
